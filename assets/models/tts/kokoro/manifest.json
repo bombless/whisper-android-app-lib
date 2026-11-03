@@ -1,0 +1,29 @@
+{
+  "model": "soniqo/Kokoro-82M-ONNX",
+  "revision": "b561586381f1b212a8d6bd2a46483e04f54f4ebf",
+  "license": "Apache-2.0",
+  "languages": ["en", "fr", "es", "it", "pt", "hi", "ja", "zh"],
+  "sampleRate": 24000,
+  "totalBytes": 174878328,
+  "files": [
+    {"path":"kokoro-e2e.onnx","size":3643581,"sha256":"e2cc97637ae49e7322d8b2eecd35f80a66b184463f302d5a9e02f543d086075a"},
+    {"path":"kokoro-e2e-realtime.onnx","size":3009642,"sha256":"313a2539eeb9983e2146a46494950132d64d8b63480bf64614c43137319933da"},
+    {"path":"kokoro-e2e.onnx.data","size":162013184,"sha256":"ca3c8597908bb706b225f4bdc138343928fef0dcc3509362b18d0416790a1eba"},
+    {"path":"vocab_index.json","size":1822,"sha256":"dd8fb80ef6a51c0b92425b15dcaa77d98f09ab4a39b5b350f59beb62e0b3c442"},
+    {"path":"us_gold.json","size":3000469,"sha256":"dc414872a49a28ae6c141463d502fd945f3b2fde040484fdc47d00cc4612686f"},
+    {"path":"us_silver.json","size":3099517,"sha256":"de8f67be911bb6c659187b4a65fd966b6a30e56350e0f790d763210b053ac475"},
+    {"path":"dict_fr.json","size":51497,"sha256":"445e45ae84d8a779d22b4df3b90e169ee6e737856765a812abfbbfddd08b4488"},
+    {"path":"dict_es.json","size":5077,"sha256":"0011eaaccbffb825d6d3c48543ee176053ee224036e09873170c0b89be2faea4"},
+    {"path":"dict_it.json","size":3926,"sha256":"9e920c5e24b9aea14642b0b53e2788c69c0f36b492f408bcbe586233dfb3a316"},
+    {"path":"dict_pt.json","size":37438,"sha256":"8c4f5ac84fbf822e8558ac28c4291dbceb754aadc0fad3f6124b528512129ea1"},
+    {"path":"dict_hi.json","size":3983,"sha256":"6cb736986de8966f87779e9d89438f07a9c0c935a4a975be080b87a251d37a6f"},
+    {"path":"voices/af_heart.bin","size":1024,"sha256":"3bc1d7444ad012b5c78f3fe7546e7bfcc505a487debf24c799cf97ecf34dc191"},
+    {"path":"voices/ff_siwis.bin","size":1024,"sha256":"1463f96b33b5144a7b44c144e01370d4abf3cb8a3476c12d77d010bfa8b34405"},
+    {"path":"voices/ef_dora.bin","size":1024,"sha256":"8faf228a433794a511a935de4ba79fe7283cc4f62675591c25acb9d9fbb2c9cd"},
+    {"path":"voices/if_sara.bin","size":1024,"sha256":"f779ef7bf9f9a62058bb45779e44a1671cb0df771fcdbc3e9d8ebd09ef4746a2"},
+    {"path":"voices/pf_dora.bin","size":1024,"sha256":"da057fa319cdd38a2a1a38c449e8b5ebefe3ec494cf8d6d59b0f3646bc442aea"},
+    {"path":"voices/hf_alpha.bin","size":1024,"sha256":"3d0c56076ccb75aed26b7e15511f4187092595da8737f03a153a8a6368e6c452"},
+    {"path":"voices/jf_alpha.bin","size":1024,"sha256":"9b54a3b0089be375ac816b0aa8e148067c20e3e51ee018239d9809aa32abb883"},
+    {"path":"voices/zf_xiaobei.bin","size":1024,"sha256":"f5a0f42e321c19bea18f8e144215bc3425f17de7b0c0a053be09c4a2aaa54aa1"}
+  ]
+}

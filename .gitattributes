@@ -1,3 +1,4 @@
 assets/models/whisper/decoder.bin filter=lfs diff=lfs merge=lfs -text
 assets/models/whisper/ggml-tiny.bin filter=lfs diff=lfs merge=lfs -text
 assets/models/tts/vits_zh_ll/model.onnx filter=lfs diff=lfs merge=lfs -text
+assets/models/asr/sense_voice_small_int8/model.int8.onnx filter=lfs diff=lfs merge=lfs -text

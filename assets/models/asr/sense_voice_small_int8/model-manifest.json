@@ -1,0 +1,32 @@
+{
+  "model": "SenseVoiceSmall",
+  "format": "sherpa-onnx Offline SenseVoice",
+  "quantization": "INT8",
+  "languages": [
+    "zh",
+    "yue",
+    "en",
+    "ja",
+    "ko"
+  ],
+  "sample_rate": 16000,
+  "model_file": "model.int8.onnx",
+  "model_bytes": 239233841,
+  "model_sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+  "tokens_file": "tokens.txt",
+  "tokens_bytes": 315894,
+  "tokens_sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc",
+  "source_release": "sherpa-onnx asr-models / 2024-07-17",
+  "source_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2",
+  "mirror_url": "https://huggingface.co/tintitu/sherpa-sensevoice-small-int8",
+  "mirror_archive": "sherpa-sensevoice-small-int8.zip",
+  "mirror_archive_bytes": 155115216,
+  "mirror_archive_sha256": "526304059c61db8c9eb677e40bb7105cf570a50bf419396d5d9d77f420e9a4bf",
+  "upstream_archive_sha256_from_mirror_readme": "7d1efa2138a65b0b488df37f8b89e3d91a60676e416f515b952358d83dfd347e",
+  "license": "FunASR Model Open Source License Agreement v1.1; see bundled LICENSE and attribution notice",
+  "bundled_license_pointer": "LICENSE",
+  "attribution_file": "MODEL_ATTRIBUTION.md",
+  "attribution_required": true,
+  "license_pointer": "LICENSE",
+  "license_url": "https://github.com/modelscope/FunASR/blob/main/MODEL_LICENSE"
+}
